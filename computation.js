@@ -5,7 +5,7 @@ let x = Math.random()*100;
 router.get('/', function(req, res, next) {
   let y = Math.cos(x);
  
-res.send(`Sqrt of ${x} is ${y}`);
+res.send(`cos of ${x} is ${y}`);
 });
  
 module.exports = router;
